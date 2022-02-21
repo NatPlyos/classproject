@@ -29,11 +29,8 @@ public class Collection_training {
         toys.put("Barbie", new Product("Doll"));
         toys.put("Lego", new Product("Constructor"));
         toys.put("Bear", new Product("SoftToy"));
-//        System.out.println(toys.entrySet());
         printEntrySet(toys);
-//        System.out.println(toys.keySet());
         printKeySet(toys);
-//        System.out.println(toys.values());
         printValues(toys);
 
         // почему не доступна функция getName() применительно к Product? Как сделать, чтобы выводился только список имен объектов Product в Map?
