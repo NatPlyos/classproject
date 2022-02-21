@@ -59,7 +59,7 @@ public class Collection_training {
     public static <K, V> void printValues(Map<K, V> map) {
         Iterator<V> iterator = map.values().iterator();
         while (iterator.hasNext()) {
-            System.out.println(iterator.next() + " ");
+            System.out.println(iterator.next());
         }
     }
 
